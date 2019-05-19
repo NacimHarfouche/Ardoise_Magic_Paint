@@ -2,11 +2,13 @@ canvas {
 	border: solid 1px black;
 	display: inline-block;
 }
+/* les élèments cliquable "gomme, pipette...ect" */
 #eraser, #pipette, #bucket, #eraserPart, #pencil {
 	font-size: 30px;
 	text-decoration: none;
 	color: black;
 }
+/* les couleurs */ 
 #couleur {
 	margin-top: 20px;
 }
@@ -38,9 +40,11 @@ canvas {
 	background-color: #5472AE;
 }
 
+/* div contenant les buttons "trait"*/
 #trait {
 	margin-top: 40px;
 }
+/* class utiliser pour cacher des élèments*/
 .hiden {
 	display: none;
 }
