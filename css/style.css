@@ -1,0 +1,46 @@
+canvas {
+	border: solid 1px black;
+	display: inline-block;
+}
+#eraser, #pipette, #bucket, #eraserPart, #pencil {
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+#couleur {
+	margin-top: 20px;
+}
+#couleur a {
+	border: solid 2px black;
+	border-radius: 100%;
+	padding: 20px 30px;
+	margin: 0 5px;
+}
+#noir {
+	background-color: #000000;
+}
+#marron {
+	background-color: #7E5835;
+}
+#rouge {
+	background-color: #FF0000;
+}
+#jaune {
+	background-color: #FEE347;
+}
+#vert {
+	background-color: #32CD32;
+}
+#bleuClair {
+	background-color: #ADD8E6;
+}
+#bleuFonce {
+	background-color: #5472AE;
+}
+
+#trait {
+	margin-top: 40px;
+}
+.hiden {
+	display: none;
+}
